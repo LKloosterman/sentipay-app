@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
                 });
 
         json_request.setRetryPolicy(new DefaultRetryPolicy(
-                10000,
+                6000,
                 100,
                 DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));
 
